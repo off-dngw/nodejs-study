@@ -10,5 +10,9 @@ fs.writeFile('textWriteFile.txt', data, 'utf-8', (err, data )=> {
 })
 
 // 파일을 동기적으로 씁니다.
+
 fs.writeFileSync('textWriteFileSync.txt' , data , 'utf-8');
     console.log('Write File Sync Complete')
+
+
+
